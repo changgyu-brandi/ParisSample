@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="StyleAdd">
+        <item name="dsText">TextView by style add</item>
+        <item name="dsTextColor">@color/purple_700</item>
+        <item name="dsTextTypeFace">italic</item>
+    </style>
+
+</resources>

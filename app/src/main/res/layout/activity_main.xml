@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <kr.co.brandi.paris_sample.DsTextView
+        android:id="@+id/tv_ds_text_xml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:dsText="TextView by xml"
+        app:dsTextColor="@color/purple_200"
+        app:dsTextTypeFace="bold" />
+
+    <kr.co.brandi.paris_sample.DsTextView
+        android:id="@+id/tv_ds_text_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp" />
+
+    <kr.co.brandi.paris_sample.DsTextView
+        android:id="@+id/tv_ds_text_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+    <kr.co.brandi.paris_sample.DsTextView
+        android:id="@+id/tv_ds_text_style_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

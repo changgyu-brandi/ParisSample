@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DsText">
+        <attr name="dsTextView" format="reference" />
+        <attr name="dsText" format="string" />
+        <attr name="dsTextColor" format="color" />
+        <attr name="dsTextTypeFace" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
